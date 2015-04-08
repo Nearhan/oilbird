@@ -1,0 +1,29 @@
+{
+  "name": "oilbird",
+  "version": "1.0.0",
+  "description": "create playlists from venues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nearhan/oilbird.git"
+  },
+  "keywords": [
+    "Music"
+  ],
+  "author": "Farhan Syed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nearhan/oilbird/issues"
+  },
+  "homepage": "https://github.com/Nearhan/oilbird",
+  "dependencies": {
+    "koa": "^0.19.0",
+    "react": "^0.13.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.8.2"
+  }
+}
