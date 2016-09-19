@@ -1,5 +1,6 @@
 test:
-  override: echo "hi"
+  override: 
+    - echo "hi"
 deployment:
   production:
     branch: /!master
