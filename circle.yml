@@ -1,0 +1,8 @@
+test:
+  override: echo "hi"
+deployment:
+  production:
+    branch: /!master
+    commands:
+      - echo "here I am"
+  
