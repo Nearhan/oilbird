@@ -3,7 +3,10 @@ test:
     - echo "hi"
 deployment:
   production:
-    branch: /!master
+    branch: /!master/
     commands:
       - echo "here I am"
-  
+  test:
+    branch: /master/
+    commands:
+      - echo "g o g o g o g o"
